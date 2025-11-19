@@ -65,13 +65,42 @@ section h3 {
   background-color: #f9f9f9;
 }
 
-.activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+/* Participants list inside activity card */
+.participants {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
 }
 
-.activity-card p {
-  margin-bottom: 8px;
+.participants p {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+  max-height: 6.5em; /* roughly 4-5 lines */
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+.participant-item {
+  padding: 3px 0;
+  color: #444;
+  font-size: 13px;
+  word-break: break-word;
+}
+
+/* Subtle style for empty state */
+.no-participants {
+  color: #777;
+  font-style: italic;
 }
 
 .form-group {
