@@ -13,6 +13,7 @@
         "src.app:app",
         "--reload"
       ],
+      "console": "integratedTerminal",
       "jinja": true
     }
   ]
